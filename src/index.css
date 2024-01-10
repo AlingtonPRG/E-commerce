@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  background-image: url(./assets/Images/bg_hero.svg);
+  background-color: rgb(236 72 153);
+}
+
+li:hover .img {
+  transform: scale(1.15);
+}
+.buttons:hover .img {
+  transform: scale(1.15);
+}
+li:hover .buttons {
+  right: 25px;
+  opacity: 100;
+}
